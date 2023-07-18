@@ -36,6 +36,11 @@
         <module>spring-justmine-trace-feign</module>
         <module>spring-justmine-trace-httpclient</module>
         <module>spring-justmine-trace-xxljob</module>
+        <module>spring-justmine-agent</module>
+        <module>justmine-libs</module>
+        <module>justmine-libs/justmine-lib-feign-interceptor</module>
+        <module>justmine-libs/justmine-lib-web-filter</module>
+        <module>justmine-libs/justmine-lib-json</module>
     </modules>
 
     <dependencyManagement>
