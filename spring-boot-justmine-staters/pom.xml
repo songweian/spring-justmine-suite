@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.justmine</groupId>
+        <artifactId>spring-justmine-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>spring-boot-justmine-staters</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-boot-justmine-starter</module>
+        <module>spring-boot-justmine-starter-config</module>
+        <module>spring-boot-justmine-starter-rocketmq</module>
+        <module>spring-boot-justmine-starter-redis</module>
+        <module>spring-boot-justmine-starter-trace</module>
+        <module>spring-boot-justmine-starter-datasource</module>
+        <module>spring-boot-justmine-starter-logback</module>
+        <module>spring-boot-justmine-starter-metric</module>
+        <module>spring-boot-justmine-starter-kafka</module>
+        <module>spring-boot-justmine-starter-thread</module>
+        <module>spring-boot-justmine-starter-discovery</module>
+        <module>spring-boot-justmine-starter-actuator</module>
+        <module>spring-boot-justmine-starter-devtools</module>
+        <module>spring-boot-justmine-starter-trace-cat</module>
+        <module>spring-boot-justmine-starter-feign</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>

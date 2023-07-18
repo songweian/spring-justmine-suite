@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.justmine</groupId>
+    <artifactId>spring-justmine-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>spring-justmine-commons</module>
+        <module>spring-justmine-trace</module>
+        <module>spring-justmine-redis</module>
+        <module>spring-justmine-develop-env</module>
+        <module>spring-justmine-rocketmq</module>
+        <module>spring-justmine-thread</module>
+        <module>spring-justmine-logback</module>
+        <module>spring-justmine-mq</module>
+        <module>spring-justmine-datasource</module>
+        <module>spring-justmine-config</module>
+        <module>spring-justmine-discovery</module>
+        <module>spring-justmine-actuator</module>
+        <module>spring-justmine-kafka</module>
+        <module>spring-justmine-metrics</module>
+        <module>spring-boot-justmine</module>
+        <module>spring-boot-justmine-examples</module>
+        <module>spring-justmine-trace-cat</module>
+        <module>spring-justmine-feign</module>
+        <module>spring-boot-justmine-staters</module>
+        <module>spring-justmine-test</module>
+        <module>spring-justmine-autoconfigure</module>
+        <module>spring-justmine-trace-servlet-filter</module>
+        <module>spring-justmine-trace-annotation</module>
+        <module>spring-justmine-trace-feign</module>
+        <module>spring-justmine-trace-httpclient</module>
+        <module>spring-justmine-trace-xxljob</module>
+    </modules>
+
+    <dependencyManagement>
+
+    </dependencyManagement>
+</project>
