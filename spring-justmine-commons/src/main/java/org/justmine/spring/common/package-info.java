@@ -1,0 +1,1 @@
+package org.justmine.spring.common;
