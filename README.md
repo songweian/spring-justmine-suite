@@ -11,4 +11,5 @@
 ### thread
 ### log
 ### circuitbreaker
+### 提供流量染色支持
 等默认配置以及动态调整
