@@ -10,37 +10,40 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>spring-justmine-commons</module>
-        <module>spring-justmine-trace</module>
-        <module>spring-justmine-redis</module>
-        <module>spring-justmine-develop-env</module>
-        <module>spring-justmine-rocketmq</module>
-        <module>spring-justmine-thread</module>
-        <module>spring-justmine-logback</module>
-        <module>spring-justmine-mq</module>
-        <module>spring-justmine-datasource</module>
-        <module>spring-justmine-config</module>
-        <module>spring-justmine-discovery</module>
-        <module>spring-justmine-actuator</module>
-        <module>spring-justmine-kafka</module>
-        <module>spring-justmine-metrics</module>
-        <module>spring-boot-justmine</module>
-        <module>spring-boot-justmine-examples</module>
-        <module>spring-justmine-trace-cat</module>
-        <module>spring-justmine-feign</module>
-        <module>spring-boot-justmine-staters</module>
-        <module>spring-justmine-test</module>
-        <module>spring-justmine-autoconfigure</module>
-        <module>spring-justmine-trace-servlet-filter</module>
-        <module>spring-justmine-trace-annotation</module>
-        <module>spring-justmine-trace-feign</module>
-        <module>spring-justmine-trace-httpclient</module>
-        <module>spring-justmine-trace-xxljob</module>
-        <module>spring-justmine-agent</module>
-        <module>justmine-libs</module>
-        <module>justmine-libs/justmine-lib-feign-interceptor</module>
-        <module>justmine-libs/justmine-lib-web-filter</module>
-        <module>justmine-libs/justmine-lib-json</module>
+        <module>justmine-common</module>
+        <module>justmine-lib-utils</module>
+        <module>justmine-mq</module>
+        <module>justmine-mq-mysql</module>
+
+        <module>justmine-lib-feign-interceptor</module>
+        <module>justmine-springframework-webflux</module>
+        <module>justmine-springframework-commons</module>
+        <module>justmine-spring-trace</module>
+        <module>justmine-spring-redis</module>
+        <module>justmine-spring-develop-env</module>
+        <module>justmine-spring-rocketmq</module>
+        <module>justmine-spring-thread</module>
+        <module>justmine-spring-logback</module>
+        <module>justmine-spring-mq</module>
+        <module>justmine-spring-datasource</module>
+        <module>justmine-spring-config</module>
+        <module>justmine-spring-discovery</module>
+        <module>justmine-spring-actuator</module>
+        <module>justmine-spring-kafka</module>
+        <module>justmine-spring-metrics</module>
+        <module>justmine-spring-boot</module>
+        <module>justmine-spring-boot-examples</module>
+        <module>justmine-spring-trace-cat</module>
+        <module>justmine-spring-feign</module>
+        <module>justmine-spring-boot-staters</module>
+        <module>justmine-spring-test</module>
+        <module>justmine-spring-autoconfigure</module>
+        <module>justmine-spring-trace-servlet-filter</module>
+        <module>justmine-spring-trace-annotation</module>
+        <module>justmine-spring-trace-feign</module>
+        <module>justmine-spring-trace-httpclient</module>
+        <module>justmine-spring-trace-xxljob</module>
+        <module>justmine-spring-agent</module>
         <module>justmine-openplatform</module>
     </modules>
 
@@ -160,7 +163,7 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <!--                <version>4.13.2</version>-->
+                <version>4.13.2</version>
                 <scope>test</scope>
             </dependency>
             <!--            mockito-->
