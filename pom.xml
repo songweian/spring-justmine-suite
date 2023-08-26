@@ -6,15 +6,19 @@
 
     <groupId>org.justmine</groupId>
     <artifactId>spring-justmine-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${revision}</version>
     <packaging>pom</packaging>
 
+    <properties>
+        <revision>1.0-SNAPSHOT</revision>
+    </properties>
     <modules>
         <module>justmine-common</module>
         <module>justmine-mq</module>
         <module>justmine-mq-mysql</module>
 
-        <module>justmine-lib-feign-interceptor</module>
+        <module>justmine-admin-server</module>
+        <module>justmine-spring-client</module>
         <module>justmine-springframework-webflux</module>
         <module>justmine-springframework-commons</module>
         <module>justmine-spring-trace</module>

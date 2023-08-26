@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr:
+        file-extension: yml
+        group: DEFAULT_GROUP
+        namespace: justmine-spring-client
+
+# justmine_${appName}_${mid_name}_${env}.yml
