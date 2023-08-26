@@ -11,7 +11,6 @@
 
     <modules>
         <module>justmine-common</module>
-        <module>justmine-lib-utils</module>
         <module>justmine-mq</module>
         <module>justmine-mq-mysql</module>
 
@@ -122,14 +121,14 @@
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
-                <!--                <version>4.0.1</version>-->
+                <version>4.0.1</version>
                 <scope>provided</scope>
             </dependency>
             <!--            junit-->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <!--                <version>4.13.2</version>-->
+                <version>4.13.2</version>
                 <scope>test</scope>
             </dependency>
             <!--            mockito-->

@@ -2,6 +2,7 @@ package pro.justmine.common.gson;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import org.springframework.core.annotation.AnnotationAwareOrderComparator;
 import pro.justmine.common.JustOrderUtils;
 
 import java.util.ArrayList;
@@ -32,8 +33,8 @@ public class JustGson {
         }
 
         public Gson build() {
-            List<GsonCustomizer> sorted = JustOrderUtils.sort(customizers);
-            for (GsonCustomizer customizer : sorted) {
+            AnnotationAwareOrderComparator.sort(customizers);
+            for (GsonCustomizer customizer : customizers) {
                 customizer.customize(builder);
             }
             return builder.create();

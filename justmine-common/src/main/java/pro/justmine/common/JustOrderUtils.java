@@ -1,6 +1,6 @@
 package pro.justmine.common;
 
-import pro.justmine.common.annotation.Ordered;
+import org.springframework.core.Ordered;
 
 import java.util.Comparator;
 import java.util.List;
