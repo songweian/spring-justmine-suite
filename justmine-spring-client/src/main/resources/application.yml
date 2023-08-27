@@ -6,5 +6,7 @@ spring:
         file-extension: yml
         group: DEFAULT_GROUP
         namespace: justmine-spring-client
+        cluster-name: DEFAULT
+
 
 # justmine_${appName}_${mid_name}_${env}.yml
