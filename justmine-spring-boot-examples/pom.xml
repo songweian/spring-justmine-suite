@@ -14,6 +14,7 @@
     <modules>
         <module>boot-example-stater</module>
         <module>boot-example-starter-redis</module>
+        <module>boot-example-stater-web</module>
     </modules>
 
     <properties>
