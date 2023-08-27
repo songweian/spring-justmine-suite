@@ -12,7 +12,7 @@
     <artifactId>justmine-spring-boot-staters</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>spring-boot-justmine-starter</module>
+        <module>justmine-spring-boot-starter</module>
         <module>spring-boot-justmine-starter-config</module>
         <module>spring-boot-justmine-starter-rocketmq</module>
         <module>spring-boot-justmine-starter-redis</module>

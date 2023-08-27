@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-boot-justmine-starter</artifactId>
+    <artifactId>justmine-spring-boot-starter</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -18,19 +18,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.dianping.cat</groupId>
-            <artifactId>cat-client</artifactId>
-            <version>4.0-RC1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.dianping.cat</groupId>
-            <artifactId>cat-client</artifactId>
-            <version>4.0-RC1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.meituan.cat</groupId>
-            <artifactId>cat-client</artifactId>
-            <version>3.0.1</version>
+            <groupId>org.justmine</groupId>
+            <artifactId>justmine-spring-boot</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
