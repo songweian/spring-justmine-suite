@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>justmine-spring-boot-starter</module>
+        <module>justmine-spring-boot-starter-web</module>
         <module>spring-boot-justmine-starter-config</module>
         <module>spring-boot-justmine-starter-rocketmq</module>
         <module>spring-boot-justmine-starter-redis</module>
@@ -35,21 +36,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>com.dianping.cat</groupId>
-            <artifactId>cat-client</artifactId>
-            <version>4.0-RC1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.dianping.cat</groupId>
-            <artifactId>cat-client</artifactId>
-            <version>4.0-RC1</version>
-        </dependency>
-        <dependency>
-            <groupId>com.meituan.cat</groupId>
-            <artifactId>cat-client</artifactId>
-            <version>3.0.1</version>
-        </dependency>
     </dependencies>
 
 </project>
